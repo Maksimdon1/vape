@@ -13,11 +13,11 @@
 
 .categories{
 
-   margin: 5% 10% 10% 10%;
+   margin: 5% 7.5% 10% 7.5% ;
    
     
     display: grid;
-    width: 80%;
+    width: 85%;
     height: auto;
     grid-template-columns: repeat(2,49% );
 
