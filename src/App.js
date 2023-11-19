@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/header';
 import Home from './components/Home';
+import Catalog from './components/catalog';
 import { Routes, Route, Navigate} from 'react-router-dom';
 
 
@@ -70,6 +71,7 @@ function App() {
 <Routes>
 
   <Route path="/" element = {   <Home/>} />
+  <Route path="/catalog" element = {   <Catalog/>} />
     
    </Routes>
 

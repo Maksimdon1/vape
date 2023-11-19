@@ -1,0 +1,16 @@
+.items{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,49% );
+    column-gap: 2%;
+}
+.card{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 4%;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
