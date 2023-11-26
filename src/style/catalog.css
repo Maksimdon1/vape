@@ -14,3 +14,19 @@
     width: 100%;
     height: auto;
 }
+.card .title{
+    display: flex;
+    justify-self: start;
+    justify-content: flex-start;
+}
+.title{
+    font-size: larger;
+}
+.price{
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+    font-weight: 400;
+    justify-content: flex-end;
+    padding: 10px;
+}

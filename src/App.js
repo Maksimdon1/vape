@@ -4,7 +4,7 @@ import Header from './components/header';
 import Home from './components/Home';
 import Catalog from './components/catalog';
 import { Routes, Route, Navigate} from 'react-router-dom';
-
+import Product from './components/product';
 
 function App() {
 //   const dispatch = useDispatch()
@@ -72,6 +72,7 @@ function App() {
 
   <Route path="/" element = {   <Home/>} />
   <Route path="/catalog" element = {   <Catalog/>} />
+  <Route path="/product/:path" element = {   <Product/> } />
     
    </Routes>
 
