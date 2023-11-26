@@ -1,20 +1,74 @@
 .image img{
-    max-width: 80%;
+    max-width: 90%;
     max-height: 60%;
     height: auto;
     margin: auto;
+    border-radius: 0 0  -20px -20px;
 
 }
 .image{
+    border-radius: 20px;
     background-color: rgba(72, 71, 118, 0.21)    ;
     display: flex;
 }
 .product-info{
-    position: absolute;
-    bottom: 0;
-    height: 50%;
+  
     background-color: #ffffff;
     width: 100%;
-    padding: 0px;
-    border-radius: 30px 30px 0 0;
+
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom:  20px;
+
+    background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns:  repeat(2, calc(50% - 5px));
+    column-gap: 10px;
+    max-height: 65px;
+    
+}
+.add-to-cart{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    padding: 14px;
+    width: 100%;
+    background-color: #d3cece;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.buy{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+    font-size: clamp(5px, 5vw, 18px);
+    display: flex;
+    padding: 14px;
+    width: 100%;
+    background-color: #d3cece;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.product .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.product .title{
+    font-size: clamp(5px, 4.8vw, 18px);
+
+}
+.product{
+    padding-bottom: 120px;
 }
