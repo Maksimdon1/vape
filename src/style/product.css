@@ -76,6 +76,7 @@
 
 }
 .product{
+    height: 100%;
     border-radius: 20px;
     padding-bottom: 120px;
     background-color: rgba(72, 71, 118, 0.21)    ;
