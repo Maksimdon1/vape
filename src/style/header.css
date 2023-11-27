@@ -718,10 +718,10 @@
       }
     .panel.open {
       z-index: 200;
-      top: 55px;
+      top: 50px;
       position: fixed;
       width: 100%;
-      height: calc(100vh - 64.5px) ;
+      height: calc(100vh - 50px) ;
       color: #000;
     
       
@@ -731,7 +731,7 @@
       -o-transition:  2s ease-in-out;
       transition:  1s ease-in-out;
       background-color: rgb(255, 255, 255); /* Black w/opacity/see-through */
-      border-radius: 0 0 0 30px;
+      border-radius: 0 0 0 0 0px;
     
     }
     
@@ -752,7 +752,7 @@
       .burger span {
         display: block;
         position: absolute;
-        height: 1.8px;
+        height: 2px;
         width: 100%;
         background: black;
         border-radius: 9px;

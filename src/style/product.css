@@ -8,12 +8,12 @@
 }
 .image{
     border-radius: 20px;
-    background-color: rgba(72, 71, 118, 0.21)    ;
+    background-color: rgba(72, 71, 118, 0.449)    ;
     display: flex;
 }
 .product-info{
   
-    background-color: #ffffff;
+
     width: 100%;
 
 }
@@ -23,11 +23,12 @@
     position: fixed;
     bottom:  20px;
 
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(247,115,27, 0);
     display: grid;
-    grid-template-columns:  repeat(2, calc(50% - 5px));
+    grid-template-columns:  repeat(2, calc(50% - 15px));
     column-gap: 10px;
     max-height: 65px;
+    margin: 0 10px 0 10px ;
     
 }
 .add-to-cart{
@@ -37,7 +38,7 @@
     display: flex;
     padding: 14px;
     width: 100%;
-    background-color: #d3cece;
+    background-color: rgba(80,200,120, 0.95);
     border-radius: 14px;
     flex-wrap: wrap;
     align-content: center;
@@ -48,11 +49,11 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik', sans-serif;
 
-    font-size: clamp(5px, 5vw, 18px);
+   
     display: flex;
     padding: 14px;
     width: 100%;
-    background-color: #d3cece;
+    background-color: rgba(247, 115, 27, 0.95);
     border-radius: 14px;
     flex-wrap: wrap;
     align-content: center;
@@ -60,9 +61,14 @@
 }
 
 .product .info{
+    width: 100%;
+    
+    margin: auto;
+    padding: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    list-style: disc outside none;
+    padding: 10px 10px 10px 25px;
     margin-top: 20px;
 }
 .product .title{
@@ -70,5 +76,7 @@
 
 }
 .product{
+    border-radius: 20px;
     padding-bottom: 120px;
+    background-color: rgba(72, 71, 118, 0.21)    ;
 }
