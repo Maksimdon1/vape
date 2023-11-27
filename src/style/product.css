@@ -1,6 +1,7 @@
 .image img{
     max-width: 90%;
-    max-height: 60%;
+    max-height: 80%;
+    width: 90%;
     height: auto;
     margin: auto;
     border-radius: 0 0  -20px -20px;
@@ -70,15 +71,15 @@
     list-style: disc outside none;
     padding: 10px 10px 10px 25px;
     margin-top: 20px;
-    font-size: medium;
-}
-.product .title{
-    font-size: clamp(5px, 4.8vw, 18px);
+    font-size: clamp(5px, 5vw, 20px);
 
 }
+.product .title{
+    font-size: clamp(5px, 6vw, 24px);
+}
 .product{
-    height: 100%;
-    border-radius: 20px;
+    height: 100vh;
+    border-radius: 20px 20px 0 0;
     padding-bottom: 70px;
     background-color: rgba(72, 71, 118, 0.21)    ;
 }

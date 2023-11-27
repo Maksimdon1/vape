@@ -64,16 +64,11 @@ a{
 @media (min-width: 0px ) and (max-width: 1000px){
   #root{
 
-    height: 100vh;
-    padding-bottom: 54px;
+ 
 
   }
-}
-@media (min-width: 320px ) and (max-width: 723px){}
-@media (min-width: 1000px ) and (max-width: 1600px){
 
 }
-
 /* *{
   box-shadow: 2px 4px 2px 0px rgba(0,0,0,.20);
 } */
