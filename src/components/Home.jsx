@@ -7,13 +7,13 @@ export default function Home() {
     <>
     <div className="title">Что вы предпочитаете ?</div>
      <div className="categories">
-        <Link  to={'slurry'}><div className="category-item"><div className="header"> <span>Ж</span> <span>и</span> <span>ж</span> <span>и</span> </div></div> </Link>
+        <Link  to={'/catalog'}><div className="category-item"><div className="header"> <span>Ж</span> <span>и</span> <span>ж</span> <span>и</span> </div></div> </Link>
         
-        <Link  to={'disposable'}><div className="category-item"><div className="header">  <span>О</span>   <span>д</span>  <span>н</span>  <span>о</span>  <span>р</span>  <span>а</span>  <span>з</span> <span>к</span> <span>и</span></div></div> </Link>
+        <Link  to={'/catalog'}><div className="category-item"><div className="header">  <span>О</span>   <span>д</span>  <span>н</span>  <span>о</span>  <span>р</span>  <span>а</span>  <span>з</span> <span>к</span> <span>и</span></div></div> </Link>
         
-        <Link  to={'pods'}><div className="category-item"><div className="header">Поды</div></div> </Link>
+        <Link  to={'/catalog'}><div className="category-item"><div className="header">Поды</div></div> </Link>
         
-        <Link  to={'electronic'}> <div className="category-item"><div className="header">Электронки</div></div> </Link>
+        <Link  to={'/catalog'}> <div className="category-item"><div className="header">Электронки</div></div> </Link>
 
      </div>
 
