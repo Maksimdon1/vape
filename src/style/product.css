@@ -78,7 +78,7 @@
     font-size: clamp(5px, 6vw, 24px);
 }
 .product{
-    height: 100vh;
+
     border-radius: 20px 20px 0 0;
     padding-bottom: 70px;
     background-color: rgba(72, 71, 118, 0.21)    ;
