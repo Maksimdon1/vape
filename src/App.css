@@ -43,7 +43,7 @@ a{
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text-color: white;
     --background-color: black;
@@ -58,11 +58,16 @@ a{
     --background-color: white;
   }
 
-}
+} */
 
+
+.routes{
+  height: calc(100% - 62px) !important;
+}
 
 @media (min-width: 0px ) and (max-width: 1000px){
   #root{
+   padding-bottom: 62px;
 
  
 

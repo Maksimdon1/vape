@@ -22,7 +22,7 @@
     width: 100%;
     height: auto;
     position: fixed;
-    bottom:  20px;
+    bottom:  82px;
 
     background-color: rgba(247,115,27, 0);
     display: grid;
@@ -80,6 +80,6 @@
 .product{
 
     border-radius: 20px 20px 0 0;
-    padding-bottom: 70px;
+    padding-bottom: calc(65.5px + 5%);
     background-color: rgba(72, 71, 118, 0.21)    ;
 }

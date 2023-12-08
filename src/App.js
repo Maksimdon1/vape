@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Catalog from './components/catalog';
 import { Routes, Route, Navigate} from 'react-router-dom';
 import Product from './components/product';
-
+import BottomHeader from './components/BottomHeader';
 function App() {
 //   const dispatch = useDispatch()
 
@@ -68,6 +68,7 @@ function App() {
 
 <Header/>
 
+<div className="routes">
 <Routes>
 
   <Route path="/" element = {   <Home/>} />
@@ -75,8 +76,8 @@ function App() {
   <Route path="/product/:path" element = {   <Product/> } />
     
    </Routes>
-
-
+   </div>
+<BottomHeader/>
     </>
   );
 }
