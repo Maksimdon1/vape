@@ -5,6 +5,7 @@ const list = require("../vape.json")
 
 
 export default function Product() {
+
     const { path } = useParams();
     const [product, Setproduct] = useState(data)
     function data(){
@@ -13,7 +14,7 @@ export default function Product() {
     }
 
   return (
-    <div className='product'>
+    <div className={'product'}>
         <div className="image"><img src={require(`../static/img/${product.id}/0.webp`)} alt="" srcset="" /></div>
         <div className="product-info">
             <div className="title">{product.title}</div>
