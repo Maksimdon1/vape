@@ -5,6 +5,12 @@
       {"title" : "ELF BAR BC5000, Клюква-виноград", "id" : 2, "price": 850 , "path": "hQtQTvsQmf", "delivery-type": "bad"   },
       {"title" : "ELF BAR BC5000, Красный мохито", "id" : 3, "price": 850 , "path": "xGwZQzXpfa", "delivery-type": "bad"   },
       {"title" : "ELF BAR BC5000, Клубника-банан", "id" : 4,  "price": 850 , "path": "vdHfmoKpbG", "delivery-type": "not"  },
-      {"title" : "ELF BAR BC5000, Персиковый лед", "id" : 5, "price": 850 , "path": "BXVMjobNdh", "delivery-type": "not"  }
+      {"title" : "ELF BAR BC5000, Персиковый лед", "id" : 5, "price": 850 , "path": "BXVMjobNdh", "delivery-type": "not"  },
+      {"title" : "ELF BAR BC5000, Манго-персик", "id" : 6, "price": 850 , "path": "QqIuRzvSUn", "delivery-type": "good"  },
+      {"title" : "ELF BAR BC5000, Тройной манго", "id" : 7, "price": 850 , "path": "svWJkUfgSI", "delivery-type": "good"  },
+      {"title" : "ELF BAR BC5000, Тройной ягодный лед", "id" : 8, "price": 850 , "path": "CunUPyTkXJ", "delivery-type": "bad"  },
+      {"title" : "ELF BAR BC5000, Черника-лед", "id" : 9, "price": 850 , "path": "agCipQArPw", "delivery-type": "not"  },
+      {"title" : "ELF BAR BC5000, Зеленое яблоко", "id" : 10, "price": 850 , "path": "qayoKRmcJS", "delivery-type": "good"  }
+      
     ]
 }

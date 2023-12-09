@@ -1,6 +1,10 @@
 import {useState} from 'react'
 import '../style/catalog.scss'
+
 import {  Link , useParams , useNavigate} from 'react-router-dom';
+const list_icon = require("../static/elements/list-ul-alt-svgrepo-com.svg").default
+const table = require('../static/elements/four-squares-list-svgrepo-com.svg').default
+
 const data =  require("../vape.json");
 function Catalog() {
   const [filter, SetFilter] = useState({'show':'table'})
@@ -10,8 +14,8 @@ function Catalog() {
     <div className="show-type">
       <div className="title">Каталог</div>
       <div className={"icon" + '-' + filter.show}>
-      {filter.show==='table'&& (<><img onClick={(el)=>{SetFilter({...filter, show: 'list'})}} src={require('../static/elements/four-squares-list-svgrepo-com.svg').default} alt="" srcset="" /></>)}
-      {filter.show==='list'&& (<><img onClick={(el)=>{SetFilter({...filter, show: 'table'})}}  src={require('../static/elements/list-ul-alt-svgrepo-com.svg').default} alt="" srcset="" /></>)}
+      {filter.show==='table' && (<><img onClick={(el)=>{SetFilter({...filter, show: 'list'})}} src={table} alt="" srcset="" /></>)}
+      {filter.show==='list'&& (<><img onClick={(el)=>{SetFilter({...filter, show: 'table'})}}  src={list_icon} alt="" srcset="" /></>)}
       </div>
     </div>
     <div className="title">ELF BAR BC5000</div>
