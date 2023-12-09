@@ -1,10 +1,10 @@
 {
     "elfbar-500": [
-      {"title" : "ELF BAR BC5000, Энергетик", "id" : 0, "price": 850 , "path": "msMbXdEFqK" },
-      {"title" : "ELF BAR BC5000, Клубника-киви", "id" : 1, "price": 850 , "path": "JBBgTJsNNW"   },
-      {"title" : "ELF BAR BC5000, Клюква-виноград", "id" : 2, "price": 850 , "path": "hQtQTvsQmf"   },
-      {"title" : "ELF BAR BC5000, Красный мохито", "id" : 3, "price": 850 , "path": "xGwZQzXpfa"   },
-      {"title" : "ELF BAR BC5000, Клубника-банан", "id" : 4,  "price": 850 , "path": "vdHfmoKpbG"  },
-      {"title" : "ELF BAR BC5000, Персиковый лед", "id" : 5, "price": 850 , "path": "BXVMjobNdh"  }
+      {"title" : "ELF BAR BC5000, Энергетик", "id" : 0, "price": 850 , "path": "msMbXdEFqK", "delivery-type": "good" },
+      {"title" : "ELF BAR BC5000, Клубника-киви", "id" : 1, "price": 850 , "path": "JBBgTJsNNW", "delivery-type": "good"   },
+      {"title" : "ELF BAR BC5000, Клюква-виноград", "id" : 2, "price": 850 , "path": "hQtQTvsQmf", "delivery-type": "bad"   },
+      {"title" : "ELF BAR BC5000, Красный мохито", "id" : 3, "price": 850 , "path": "xGwZQzXpfa", "delivery-type": "bad"   },
+      {"title" : "ELF BAR BC5000, Клубника-банан", "id" : 4,  "price": 850 , "path": "vdHfmoKpbG", "delivery-type": "not"  },
+      {"title" : "ELF BAR BC5000, Персиковый лед", "id" : 5, "price": 850 , "path": "BXVMjobNdh", "delivery-type": "not"  }
     ]
 }

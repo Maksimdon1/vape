@@ -21,7 +21,18 @@ function Catalog() {
       
     <>
     <Link to={`/product/${el.path}`}>
-            <div className="card"><img src={require(`../static/img/${el.id}/0.webp`)} alt="" srcset="" /> <div className="info"><div className="title">{el.title}</div><div className="price">{el.price} &#x20bd; </div> </div></div>
+            <div className="card"><img src={require(`../static/img/${el.id}/0.webp`)} alt="" srcset="" /> 
+            <div className="info">
+              <div className="">
+              <div className="title">{el.title}</div><div className="price">{el.price} &#x20bd; </div> 
+              </div>
+              <div className={"delivery" + '-'+ el['delivery-type']}> 
+                {el['delivery-type']==='good'&& (<>сегодня, до 8 часов</>)}
+                {el['delivery-type']==='bad'&& (<>в течении недели</>)}
+                {el['delivery-type']==='not'&& (<>нет в наличии</>)}
+              </div>
+            </div>
+            </div>
    </Link>
     </>
      ))}
